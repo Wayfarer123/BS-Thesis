@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{https://doi.org/10.48550/arXiv.1607.06450}
+Jimmy~Lei Ba, Jamie~Ryan Kiros, and Geoffrey~E. Hinton.
+\newblock Layer normalization, 2016.
+
+\bibitem{https://doi.org/10.48550/arXiv.1704.01212}
+Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
+  George~E. Dahl.
+\newblock Neural message passing for quantum chemistry, 2017.
+
+\bibitem{https://doi.org/10.48550/arXiv.2303.02483}
+Xiao Han, Xiatian Zhu, Licheng Yu, Li~Zhang, Yi-Zhe Song, and Tao Xiang.
+\newblock Fame-vil: Multi-tasking vision-language model for heterogeneous
+  fashion tasks, 2023.
+
+\bibitem{https://doi.org/10.48550/arXiv.2004.11362}
+Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Yonglong Tian, Phillip
+  Isola, Aaron Maschinot, Ce~Liu, and Dilip Krishnan.
+\newblock Supervised contrastive learning, 2021.
+
+\bibitem{https://doi.org/10.48550/arXiv.1609.02907}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks,
+  2017.
+
+\bibitem{https://doi.org/10.48550/arXiv.1908.11754}
+Zhanghui Kuang, Yiming Gao, Guanbin Li, Ping Luo, Yimin Chen, Liang Lin, and
+  Wayne Zhang.
+\newblock Fashion retrieval via graph reasoning networks on a similarity
+  pyramid, 2019.
+
+\bibitem{https://doi.org/10.48550/arXiv.2005.12566}
+Xingchen Li, Xiang Wang, Xiangnan He, Long Chen, Jun Xiao, and Tat-Seng Chua.
+\newblock Hierarchical fashion graph network for personalized outfit
+  recommendation, 2020.
+
+\bibitem{https://doi.org/10.48550/arXiv.2103.00020}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+  Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+  Gretchen Krueger, and Ilya Sutskever.
+\newblock Learning transferable visual models from natural language
+  supervision, 2021.
+
+\bibitem{https://doi.org/10.48550/arXiv.2204.04812}
+Rohan Sarkar, Navaneeth Bodla, Mariya~I. Vasileva, Yen-Liang Lin, Anurag
+  Beniwal, Alan Lu, and Gerard Medioni.
+\newblock Outfittransformer: Learning outfit representations for fashion
+  recommendation, 2022.
+
+\bibitem{https://doi.org/10.48550/arXiv.1409.4842}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions, 2014.
+
+\bibitem{https://doi.org/10.48550/arXiv.1706.03762}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need, 2023.
+
+\bibitem{https://doi.org/10.48550/arXiv.1710.10903}
+Petar Veli?kovi?, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
+  Li?, and Yoshua Bengio.
+\newblock Graph attention networks, 2018.
+
+\end{thebibliography}
