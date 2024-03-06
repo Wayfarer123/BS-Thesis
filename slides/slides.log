@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  25 FEB 2024 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  6 MAR 2024 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1409,10 +1409,100 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ] [11
 
 ]
-Overfull \vbox (12.50938pt too high) detected at line 262
+Overfull \vbox (12.50938pt too high) detected at line 261
  []
 
 [12
+
+] [13
+
+]
+<figures/greedy_at_least_8.png, id=115, 575.14874pt x 425.79076pt>
+File: figures/greedy_at_least_8.png Graphic file (type png)
+<use figures/greedy_at_least_8.png>
+Package pdftex.def Info: figures/greedy_at_least_8.png  used on input line 283.
+
+(pdftex.def)             Requested size: 299.07907pt x 221.41246pt.
+
+Overfull \vbox (3.44147pt too high) detected at line 283
+ []
+
+[14
+
+ <./figures/greedy_at_least_8.png>]
+<figures/greedy_at_least_5_subset100.png, id=123, 564.30824pt x 422.17725pt>
+File: figures/greedy_at_least_5_subset100.png Graphic file (type png)
+<use figures/greedy_at_least_5_subset100.png>
+Package pdftex.def Info: figures/greedy_at_least_5_subset100.png  used on input
+ line 291.
+(pdftex.def)             Requested size: 293.44197pt x 219.53343pt.
+
+Overfull \vbox (1.56244pt too high) detected at line 291
+ []
+
+[15
+
+ <./figures/greedy_at_least_5_subset100.png>] [16
+
+]
+<figures/backprop_at_least_8.png, id=135, 566.71725pt x 423.984pt>
+File: figures/backprop_at_least_8.png Graphic file (type png)
+<use figures/backprop_at_least_8.png>
+Package pdftex.def Info: figures/backprop_at_least_8.png  used on input line 31
+3.
+(pdftex.def)             Requested size: 294.69467pt x 220.47293pt.
+
+Overfull \vbox (2.50194pt too high) detected at line 313
+ []
+
+[17
+
+ <./figures/backprop_at_least_8.png>]
+<figures/backprop_at_least_5_subset100.png, id=142, 575.751pt x 423.38174pt>
+File: figures/backprop_at_least_5_subset100.png Graphic file (type png)
+<use figures/backprop_at_least_5_subset100.png>
+Package pdftex.def Info: figures/backprop_at_least_5_subset100.png  used on inp
+ut line 320.
+(pdftex.def)             Requested size: 299.39224pt x 220.15977pt.
+
+Overfull \vbox (2.18878pt too high) detected at line 320
+ []
+
+[18
+
+ <./figures/backprop_at_least_5_subset100.png>]
+<figures/greedy_and_backprop_at_least_8.png, id=149, 572.73975pt x 423.984pt>
+File: figures/greedy_and_backprop_at_least_8.png Graphic file (type png)
+<use figures/greedy_and_backprop_at_least_8.png>
+Package pdftex.def Info: figures/greedy_and_backprop_at_least_8.png  used on in
+put line 327.
+(pdftex.def)             Requested size: 297.82637pt x 220.47293pt.
+
+Overfull \vbox (2.50194pt too high) detected at line 327
+ []
+
+[19
+
+ <./figures/greedy_and_backprop_at_least_8.png>]
+<figures/greedy_and_backprop_at_least_5_subset100.png, id=157, 564.9105pt x 422
+.7795pt>
+File: figures/greedy_and_backprop_at_least_5_subset100.png Graphic file (type p
+ng)
+<use figures/greedy_and_backprop_at_least_5_subset100.png>
+Package pdftex.def Info: figures/greedy_and_backprop_at_least_5_subset100.png  
+used on input line 334.
+(pdftex.def)             Requested size: 293.75514pt x 219.8466pt.
+
+Overfull \vbox (1.87561pt too high) detected at line 334
+ []
+
+[20
+
+ <./figures/greedy_and_backprop_at_least_5_subset100.png>]
+Overfull \vbox (10.58418pt too high) detected at line 351
+ []
+
+[21
 
 ]
 \tf@nav=\write6
@@ -1429,10 +1519,10 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26542 strings out of 476024
- 507955 string characters out of 5794016
+ 26622 strings out of 476024
+ 510058 string characters out of 5794016
  1862382 words of memory out of 5000000
- 46393 multiletter control sequences out of 15000+600000
+ 46447 multiletter control sequences out of 15000+600000
  534422 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,610b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1467,10 +1557,10 @@ fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/texmf-dist/fonts/type
 m-super/sfsx0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
 sx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb
 >
-Output written on slides.pdf (12 pages, 324751 bytes).
+Output written on slides.pdf (21 pages, 784388 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
