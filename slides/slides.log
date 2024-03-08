@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  6 MAR 2024 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  6 MAR 2024 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1445,14 +1445,14 @@ Overfull \vbox (1.56244pt too high) detected at line 291
  <./figures/greedy_at_least_5_subset100.png>] [16
 
 ]
-<figures/backprop_at_least_8.png, id=135, 566.71725pt x 423.984pt>
+<figures/backprop_at_least_8.png, id=135, 566.115pt x 424.58624pt>
 File: figures/backprop_at_least_8.png Graphic file (type png)
 <use figures/backprop_at_least_8.png>
 Package pdftex.def Info: figures/backprop_at_least_8.png  used on input line 31
 3.
-(pdftex.def)             Requested size: 294.69467pt x 220.47293pt.
+(pdftex.def)             Requested size: 294.38148pt x 220.78612pt.
 
-Overfull \vbox (2.50194pt too high) detected at line 313
+Overfull \vbox (2.81512pt too high) detected at line 313
  []
 
 [17
@@ -1471,12 +1471,12 @@ Overfull \vbox (2.18878pt too high) detected at line 320
 [18
 
  <./figures/backprop_at_least_5_subset100.png>]
-<figures/greedy_and_backprop_at_least_8.png, id=149, 572.73975pt x 423.984pt>
+<figures/greedy_and_backprop_at_least_8.png, id=149, 574.5465pt x 423.984pt>
 File: figures/greedy_and_backprop_at_least_8.png Graphic file (type png)
 <use figures/greedy_and_backprop_at_least_8.png>
 Package pdftex.def Info: figures/greedy_and_backprop_at_least_8.png  used on in
 put line 327.
-(pdftex.def)             Requested size: 297.82637pt x 220.47293pt.
+(pdftex.def)             Requested size: 298.7659pt x 220.47293pt.
 
 Overfull \vbox (2.50194pt too high) detected at line 327
  []
@@ -1557,7 +1557,7 @@ fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/texmf-dist/fonts/type
 m-super/sfsx0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
 sx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb
 >
-Output written on slides.pdf (21 pages, 784388 bytes).
+Output written on slides.pdf (21 pages, 785911 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  209 compressed objects within 3 object streams
