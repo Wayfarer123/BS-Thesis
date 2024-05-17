@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  6 MAR 2024 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  18 MAY 2024 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1312,31 +1312,31 @@ Package caption Info: End \AtBeginDocument code.
 (./slides.nav) [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 76
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 72
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 76
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 72
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 76.
+ut line 72.
 
 (c:/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1346,163 +1346,130 @@ thkerncmss.
 
 ]
 
-LaTeX Warning: Command \O invalid in math mode on input line 101.
+LaTeX Warning: Command \O invalid in math mode on input line 90.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 101.
+LaTeX Warning: Command \O invalid in math mode on input line 90.
 
 
-Overfull \vbox (16.64594pt too high) detected at line 101
+Overfull \vbox (3.19624pt too high) detected at line 90
  []
 
 [3
 
-]
-Overfull \vbox (16.19624pt too high) detected at line 120
- []
-
-[4
-
-] [5
-
-]
-
-LaTeX Warning: Command \O invalid in math mode on input line 154.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 154.
-
-[6
-
-] [7
-
-]
-
-LaTeX Warning: Command \O invalid in math mode on input line 183.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 183.
-
-[8
-
-]
-
-LaTeX Warning: Command \O invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 200.
-
-
-Overfull \hbox (21.02147pt too wide) detected at line 200
-[] \OT1/cmss/m/n/10 = [] []
- []
-
-[9
+] [4
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-222.
+202.
  (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [10
+) [5
+
+] [6
+
+]
+Overfull \vbox (10.74727pt too high) detected at line 244
+ []
+
+[7
+
+] [8
+
+] [9
+
+] [10
 
 ] [11
 
-]
-Overfull \vbox (12.50938pt too high) detected at line 261
- []
-
-[12
-
-] [13
+] [12
 
 ]
-<figures/greedy_at_least_8.png, id=115, 575.14874pt x 425.79076pt>
-File: figures/greedy_at_least_8.png Graphic file (type png)
-<use figures/greedy_at_least_8.png>
-Package pdftex.def Info: figures/greedy_at_least_8.png  used on input line 283.
+<../figures/greedy_at_least_5_subset1000.png, id=107, 526.96875pt x 383.031pt>
+File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
+<use ../figures/greedy_at_least_5_subset1000.png>
+Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
+nput line 328.
+(pdftex.def)             Requested size: 263.48372pt x 191.51503pt.
+ [13
 
-(pdftex.def)             Requested size: 299.07907pt x 221.41246pt.
+ <../figures/greedy_at_least_5_subset1000.png>]
+<../figures/greedy_at_least_5_subset100.png, id=116, 564.30824pt x 422.17725pt>
 
-Overfull \vbox (3.44147pt too high) detected at line 283
+File: ../figures/greedy_at_least_5_subset100.png Graphic file (type png)
+<use ../figures/greedy_at_least_5_subset100.png>
+Package pdftex.def Info: ../figures/greedy_at_least_5_subset100.png  used on in
+put line 336.
+(pdftex.def)             Requested size: 293.44197pt x 219.53343pt.
+
+Overfull \vbox (1.56244pt too high) detected at line 336
  []
 
 [14
 
- <./figures/greedy_at_least_8.png>]
-<figures/greedy_at_least_5_subset100.png, id=123, 564.30824pt x 422.17725pt>
-File: figures/greedy_at_least_5_subset100.png Graphic file (type png)
-<use figures/greedy_at_least_5_subset100.png>
-Package pdftex.def Info: figures/greedy_at_least_5_subset100.png  used on input
- line 291.
-(pdftex.def)             Requested size: 293.44197pt x 219.53343pt.
-
-Overfull \vbox (1.56244pt too high) detected at line 291
- []
-
-[15
-
- <./figures/greedy_at_least_5_subset100.png>] [16
+ <../figures/greedy_at_least_5_subset100.png>] [15
 
 ]
-<figures/backprop_at_least_8.png, id=135, 566.115pt x 424.58624pt>
-File: figures/backprop_at_least_8.png Graphic file (type png)
-<use figures/backprop_at_least_8.png>
-Package pdftex.def Info: figures/backprop_at_least_8.png  used on input line 31
-3.
+<../figures/backprop_at_least_8.png, id=128, 566.115pt x 424.58624pt>
+File: ../figures/backprop_at_least_8.png Graphic file (type png)
+<use ../figures/backprop_at_least_8.png>
+Package pdftex.def Info: ../figures/backprop_at_least_8.png  used on input line
+ 358.
 (pdftex.def)             Requested size: 294.38148pt x 220.78612pt.
 
-Overfull \vbox (2.81512pt too high) detected at line 313
+Overfull \vbox (2.81512pt too high) detected at line 358
+ []
+
+[16
+
+ <../figures/backprop_at_least_8.png>]
+<../figures/backprop_at_least_5_subset100.png, id=135, 578.76225pt x 425.79076p
+t>
+File: ../figures/backprop_at_least_5_subset100.png Graphic file (type png)
+<use ../figures/backprop_at_least_5_subset100.png>
+Package pdftex.def Info: ../figures/backprop_at_least_5_subset100.png  used on 
+input line 365.
+(pdftex.def)             Requested size: 300.9581pt x 221.41246pt.
+
+Overfull \vbox (3.44147pt too high) detected at line 365
  []
 
 [17
 
- <./figures/backprop_at_least_8.png>]
-<figures/backprop_at_least_5_subset100.png, id=142, 575.751pt x 423.38174pt>
-File: figures/backprop_at_least_5_subset100.png Graphic file (type png)
-<use figures/backprop_at_least_5_subset100.png>
-Package pdftex.def Info: figures/backprop_at_least_5_subset100.png  used on inp
-ut line 320.
-(pdftex.def)             Requested size: 299.39224pt x 220.15977pt.
+ <../figures/backprop_at_least_5_subset100.png>]
+<../figures/greedy_and_backprop_at_least_8.png, id=142, 574.5465pt x 423.984pt>
 
-Overfull \vbox (2.18878pt too high) detected at line 320
+File: ../figures/greedy_and_backprop_at_least_8.png Graphic file (type png)
+<use ../figures/greedy_and_backprop_at_least_8.png>
+Package pdftex.def Info: ../figures/greedy_and_backprop_at_least_8.png  used on
+ input line 372.
+(pdftex.def)             Requested size: 298.7659pt x 220.47293pt.
+
+Overfull \vbox (2.50194pt too high) detected at line 372
  []
 
 [18
 
- <./figures/backprop_at_least_5_subset100.png>]
-<figures/greedy_and_backprop_at_least_8.png, id=149, 574.5465pt x 423.984pt>
-File: figures/greedy_and_backprop_at_least_8.png Graphic file (type png)
-<use figures/greedy_and_backprop_at_least_8.png>
-Package pdftex.def Info: figures/greedy_and_backprop_at_least_8.png  used on in
-put line 327.
-(pdftex.def)             Requested size: 298.7659pt x 220.47293pt.
+ <../figures/greedy_and_backprop_at_least_8.png>]
+<../figures/greedy_and_backprop_at_least_5_subset100.png, id=149, 565.51276pt x
+ 424.58624pt>
+File: ../figures/greedy_and_backprop_at_least_5_subset100.png Graphic file (typ
+e png)
+<use ../figures/greedy_and_backprop_at_least_5_subset100.png>
+Package pdftex.def Info: ../figures/greedy_and_backprop_at_least_5_subset100.pn
+g  used on input line 379.
+(pdftex.def)             Requested size: 294.06831pt x 220.78612pt.
 
-Overfull \vbox (2.50194pt too high) detected at line 327
+Overfull \vbox (2.81512pt too high) detected at line 379
  []
 
 [19
 
- <./figures/greedy_and_backprop_at_least_8.png>]
-<figures/greedy_and_backprop_at_least_5_subset100.png, id=157, 564.9105pt x 422
-.7795pt>
-File: figures/greedy_and_backprop_at_least_5_subset100.png Graphic file (type p
-ng)
-<use figures/greedy_and_backprop_at_least_5_subset100.png>
-Package pdftex.def Info: figures/greedy_and_backprop_at_least_5_subset100.png  
-used on input line 334.
-(pdftex.def)             Requested size: 293.75514pt x 219.8466pt.
-
-Overfull \vbox (1.87561pt too high) detected at line 334
+ <../figures/greedy_and_backprop_at_least_5_subset100.png>]
+Overfull \vbox (10.58418pt too high) detected at line 396
  []
 
 [20
-
- <./figures/greedy_and_backprop_at_least_5_subset100.png>]
-Overfull \vbox (10.58418pt too high) detected at line 351
- []
-
-[21
 
 ]
 \tf@nav=\write6
@@ -1519,48 +1486,45 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26622 strings out of 476024
- 510058 string characters out of 5794016
+ 26623 strings out of 476024
+ 510222 string characters out of 5794016
  1862382 words of memory out of 5000000
- 46447 multiletter control sequences out of 15000+600000
- 534422 words of font info for 92 fonts, out of 8000000 for 9000
+ 46448 multiletter control sequences out of 15000+600000
+ 535947 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,610b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,122p,611b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2
-022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
-c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/rsfs/rsfs7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-cm-super/sfsi1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
-fss0500.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pf
-b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/c
-m-super/sfsx0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
-sx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb
->
-Output written on slides.pdf (21 pages, 785911 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/cm-super/sfss0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/cm-super/sfss0700.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
+-super/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfs
+s0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/cm-super/sftt0800.pfb>
+Output written on slides.pdf (20 pages, 754093 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
