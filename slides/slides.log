@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  18 MAY 2024 01:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  18 MAY 2024 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1384,92 +1384,43 @@ Overfull \vbox (10.74727pt too high) detected at line 244
 
 ] [12
 
+] [13
+
 ]
-<../figures/greedy_at_least_5_subset1000.png, id=107, 526.96875pt x 383.031pt>
+<../figures/greedy_at_least_5_subset1000.png, id=113, 529.37775pt x 386.6445pt>
+
 File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/greedy_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
-nput line 328.
-(pdftex.def)             Requested size: 263.48372pt x 191.51503pt.
- [13
+nput line 344.
+(pdftex.def)             Requested size: 264.68822pt x 193.32178pt.
+ [14
 
  <../figures/greedy_at_least_5_subset1000.png>]
-<../figures/greedy_at_least_5_subset100.png, id=116, 564.30824pt x 422.17725pt>
-
-File: ../figures/greedy_at_least_5_subset100.png Graphic file (type png)
-<use ../figures/greedy_at_least_5_subset100.png>
-Package pdftex.def Info: ../figures/greedy_at_least_5_subset100.png  used on in
-put line 336.
-(pdftex.def)             Requested size: 293.44197pt x 219.53343pt.
-
-Overfull \vbox (1.56244pt too high) detected at line 336
- []
-
-[14
-
- <../figures/greedy_at_least_5_subset100.png>] [15
-
-]
-<../figures/backprop_at_least_8.png, id=128, 566.115pt x 424.58624pt>
-File: ../figures/backprop_at_least_8.png Graphic file (type png)
-<use ../figures/backprop_at_least_8.png>
-Package pdftex.def Info: ../figures/backprop_at_least_8.png  used on input line
- 358.
-(pdftex.def)             Requested size: 294.38148pt x 220.78612pt.
-
-Overfull \vbox (2.81512pt too high) detected at line 358
- []
-
-[16
-
- <../figures/backprop_at_least_8.png>]
-<../figures/backprop_at_least_5_subset100.png, id=135, 578.76225pt x 425.79076p
+<../figures/backprop_at_least_5_subset1000.png, id=121, 528.7755pt x 386.04225p
 t>
-File: ../figures/backprop_at_least_5_subset100.png Graphic file (type png)
-<use ../figures/backprop_at_least_5_subset100.png>
-Package pdftex.def Info: ../figures/backprop_at_least_5_subset100.png  used on 
-input line 365.
-(pdftex.def)             Requested size: 300.9581pt x 221.41246pt.
+File: ../figures/backprop_at_least_5_subset1000.png Graphic file (type png)
+<use ../figures/backprop_at_least_5_subset1000.png>
+Package pdftex.def Info: ../figures/backprop_at_least_5_subset1000.png  used on
+ input line 352.
+(pdftex.def)             Requested size: 264.3871pt x 193.02065pt.
 
-Overfull \vbox (3.44147pt too high) detected at line 365
+Overfull \vbox (1.66013pt too high) detected at line 352
  []
 
-[17
+[15
 
- <../figures/backprop_at_least_5_subset100.png>]
-<../figures/greedy_and_backprop_at_least_8.png, id=142, 574.5465pt x 423.984pt>
+ <../figures/backprop_at_least_5_subset1000.png>]
+<../figures/GNN_at_least_5_subset1000_test.png, id=128, 528.17325pt x 384.83775
+pt>
+File: ../figures/GNN_at_least_5_subset1000_test.png Graphic file (type png)
+<use ../figures/GNN_at_least_5_subset1000_test.png>
+Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
+ input line 359.
+(pdftex.def)             Requested size: 264.08597pt x 192.4184pt.
+ [16
 
-File: ../figures/greedy_and_backprop_at_least_8.png Graphic file (type png)
-<use ../figures/greedy_and_backprop_at_least_8.png>
-Package pdftex.def Info: ../figures/greedy_and_backprop_at_least_8.png  used on
- input line 372.
-(pdftex.def)             Requested size: 298.7659pt x 220.47293pt.
-
-Overfull \vbox (2.50194pt too high) detected at line 372
- []
-
-[18
-
- <../figures/greedy_and_backprop_at_least_8.png>]
-<../figures/greedy_and_backprop_at_least_5_subset100.png, id=149, 565.51276pt x
- 424.58624pt>
-File: ../figures/greedy_and_backprop_at_least_5_subset100.png Graphic file (typ
-e png)
-<use ../figures/greedy_and_backprop_at_least_5_subset100.png>
-Package pdftex.def Info: ../figures/greedy_and_backprop_at_least_5_subset100.pn
-g  used on input line 379.
-(pdftex.def)             Requested size: 294.06831pt x 220.78612pt.
-
-Overfull \vbox (2.81512pt too high) detected at line 379
- []
-
-[19
-
- <../figures/greedy_and_backprop_at_least_5_subset100.png>]
-Overfull \vbox (10.58418pt too high) detected at line 396
- []
-
-[20
+ <../figures/GNN_at_least_5_subset1000_test.png>] [17
 
 ]
 \tf@nav=\write6
@@ -1486,11 +1437,11 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26623 strings out of 476024
- 510222 string characters out of 5794016
+ 26578 strings out of 476024
+ 508986 string characters out of 5794016
  1862382 words of memory out of 5000000
- 46448 multiletter control sequences out of 15000+600000
- 535947 words of font info for 100 fonts, out of 8000000 for 9000
+ 46415 multiletter control sequences out of 15000+600000
+ 533606 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,611b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
@@ -1521,10 +1472,10 @@ s0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sftt0800.pfb>
-Output written on slides.pdf (20 pages, 754093 bytes).
+Output written on slides.pdf (17 pages, 473720 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
