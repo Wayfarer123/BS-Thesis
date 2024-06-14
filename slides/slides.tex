@@ -11,7 +11,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{wrapfig}
-
+\usepackage{subcaption}
+\usepackage{multirow}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{longtable}
@@ -39,9 +40,12 @@
 
 
 \title[]{Обучение взаимосвязанных информативных представлений в задаче генерации образов}
-\author{Охотников Никита Владимирович}
-\institute{МФТИ}
-\date{2023-2024}
+\author{Охотников Никита Владимирович\\ Научный руководитель: к.ф.-м.н. Исаченко Р.В.}
+
+\institute{Кафедра интеллектуальных систем ФПМИ МФТИ\\
+				Специализация Интеллектуальный анализ данных\\
+				Направление: 03.03.01 Прикладные математика и физика}
+\date{2024}
 
 
 \begin{document}
@@ -67,7 +71,7 @@
 
 	\vfill
 	\begin{block}{Предлагается}
-		На основе известной функции оценки образа построить функцию для генерации зависимых скрытых представлений элементов, использующихся далее для выбора элементов дополнения на основе близости в латентном пространстве.
+		На основе известной функции оценки образа построить функцию для генерации зависимых скрытых представлений элементов, использующихся далее для выбора элементов дополнения
 	\end{block}	
 \end{frame}
 
@@ -76,10 +80,10 @@
 	\frametitle{Постановка задачи}
 		\begin{block}{Основные понятия и обозначения}
 			\begin{itemize}
-				\item Основная единица данных, рассматривающаяся в работе -- элемент одежды, далее будем называть его \textit{объектом} или \textit{элементом}, множество всех рассматриваемых объектов -- $\mathcal{X}$
+				\item Основная единица данных -- \textit{объект} или \textit{элемент } (одежды), множество всех объектов -- $\mathcal{X}$
 				
-				\item Каждый объект $X\in\mathcal{X}$ есть пара $X = (I, T)$ из соответственно изображения о текстового описания.  
-				\item Далее под объектом $X\in \mathcal{X}$ будем понимать его векторное представление $X\in\mathbb{R}^d$ в общем для всех элементов признаковом пространстве.								
+				\item Каждый объект $X\in\mathcal{X}$ есть пара $X = (I, T)$ из соответственно изображения и текстового описания.  
+				\item Далее под объектом $X\in \mathcal{X}$ будем понимать его векторное представление $X\in\mathbb{R}^d$ в общем для элементов пространстве							
 				\item Непустые подмножества множества элементов $O = \{X_i\}_{i=1}^k\subset \mathcal{X}, O\neq\{\O\}$ будем называть \textit{образами}. Множество образов обозначим $\mathcal{O}$.
 				\item Для оценки образов введем функцию \textit{оценки} или \textit{совместимости} его элементов: 
 				$$\mathcal{S}:~2^\mathcal{X}\longrightarrow [0,1]$$
@@ -229,16 +233,16 @@
 	\frametitle{Дополнение образа}
 	\begin{block}{Непрерывный подход (градиентный спуск)}
 		\begin{itemize}
-			\item Функция $\mathcal{S}$ непрерывно дифференцируема почти всюду и с ограниченным по норме градиентом, а значит липшицева с некоторой константой $M$
-			\item Есть доступ не только к значению функции оценки, но и к ее градиенту 
-			\item Идея: заменим дискретную задачу непрерывной:
+			\item Функция $\mathcal{S}$ липшицева с некоторой константой $M$
+			\item Есть доступ не только к $\mathcal{S}$, но и к $\nabla\mathcal{S}$ 
+			\item Идея: перейдем к релаксированной задаче:
 			 	$$\{\tilde{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
 	 \item Далее выберем $\{\hat{X_i}\}\subset\mathcal{X}$ как ближайшие к решениям  в смысле функции близости $\rho$:
 	 \vspace{-0.3cm}
 	 $$\hat{X_i} =  \argmin_{X\in\mathcal{X}} \rho(\tilde{X_i}, X)$$
 	  \vspace{-0.5cm}
-	 \item Полученная задача разрешима за разумное время с помощью стохастического градиентного спуска.
-	 \item Асимптотика $n$ вызовов функции оценки и ее градиента, где $n$ -- количество шагов градиентного спуска (не зависит от $|\mathcal{X}|$)
+	 \item Полученная задача разрешима с помощью стохастического градиентного спуска.
+	 \item Асимптотика: $n$ вызовов $\mathcal{S}$ и $\nabla\mathcal{S}$ , где $n$ -- количество шагов градиентного спуска (не зависит от $|\mathcal{X}|$)
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -250,7 +254,7 @@
 		\begin{itemize}
 			\item $\mathcal{S}$ -- $M$-липшицева
 			\item рассмотрим $L_p$ метрику в качестве $\rho$, тогда
-			$$\sum_{i=1}^k\rho(\hat{X_i}, \tilde{X_i}) < \varepsilon\longrightarrow \biggr{|}\mathcal{S}\left(O_n\cup\{\tilde{X_i}\}_{i=1}^k\right) - \mathcal{S}\left(O_n\cup\{\hat{X_i}\}_{i=1}^k\right)\biggr{|} < M\cdot\varepsilon$$
+			$$\sum_{i=1}^k\rho(\hat{X_i}, \tilde{X_i})~<~\varepsilon\longrightarrow \biggr{|}\mathcal{S}\left(O_n\cup\{\tilde{X_i}\}_{i=1}^k\right) - \mathcal{S}\left(O_n\cup\{\hat{X_i}\}_{i=1}^k\right)\biggr{|} < M\cdot\varepsilon$$
 			
 			\item Проблема подхода: $\exists\{\hat{X_i}\}\subset \mathcal{X}:~ \sum\limits_{i=1}^k\rho(\hat{X_i}, \tilde{X_i}) < \varepsilon$ --- очень сильное условие и требует по крайней мере
 			$$\exists \{\hat{X_i}\}_{i=1}^k\subset\mathcal{X}:~ \mathcal{S}\left(O_n\cup\{\hat{X_i}\}_{i=1}^k\right) \geqslant \max_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right) - M\varepsilon$$
@@ -270,7 +274,6 @@
 			Композицией функций 
 			$$F_k^\theta: \mathcal{O}\longrightarrow \mathbb{R}^d, ~F_k^\theta(O_n) = \{\tilde{X_i}\}_{i=1}^k$$
 			$$\text{и }\rho_\mathcal{X}: \mathbb{R}^d\longrightarrow \mathcal{X}, ~ \rho_\mathcal{X}(\tilde{X_i}) = \argmax_{\hat{X_i}\in\mathcal{X}}\rho(\tilde{X_i}, \hat{X_i})$$
-			\item $d \gg 1$ поэтому далее, следуя рекомендациям из статьи\footnote{\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144059}} будем в эксперименте использовать в качестве $\rho$ косинусную близость
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -280,7 +283,7 @@
 	\frametitle{Дополнение образа}
 	\begin{block}{Непрерывный подход (генерация скрытых представлений)}
 		\begin{itemize}
-			\item Свели исходную задачу к задаче генерации скрытых представлений недостающих элементов $\{\tilde{X_i}\}\subset \mathbb{R}^d$, наиболее близких в смысле функции $\rho$ к точным решениям задачи
+			\item Свели задачу к генерации скрытых представлений недостающих элементов $\{\tilde{X_i}\}\subset \mathbb{R}^d$, наиболее близких в смысле функции $\rho$ к точным решениям
 			$$\{\hat{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathcal{X}} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
 			с помощью функции  $F_k^\theta$ с вектором параметров $\theta$. 
 			\item Рассмотрим образы $\mathcal{O}_n = \{O^i\}_{i=1}^n \subset\mathcal{O}$ и множество известных точных решений задачи дополнения для них $\mathcal{X}_n =\{\{\hat{X_j^i}\}_{j=1}^k\}_{i=1}^n\subset\mathcal{X}^k$
@@ -299,8 +302,8 @@
 			\item Тогда представим функцию $F_k^\theta$ с помощью графовой нейронной сети (GNN)
 			\item Вершины графа --- представления элементов образа
 			\item Общий вид преобразования $h_i^{(t)}$ скрытого состояния $i$-ой вершины на шаге $t$ в message passing GNN\footnote{https://arxiv.org/pdf/1704.01212}:
-			$$h_i^{(t)} = \gamma^{(t)} \left(h_i^{(t-1)}, \bigoplus\limits_{j\in \overline{1, n}}\phi^{(t)} \left(h_i^{(t-1)}, h_j^{(t-1)} \right) \right),$$
-			где $\gamma^{(t)}, \phi^{(t)}$ -- дифференцируемые функции, $\bigoplus$ --- дифференцируемая аггрегирующая функция, инвариантная к перестановкам (в эксперименте будем использовать сумму)
+			$$h_i^{(t)} = U^{(t)} \left(h_i^{(t-1)}, \bigoplus\limits_{j\in \overline{1, n}}M^{(t)} \left(h_i^{(t-1)}, h_j^{(t-1)} \right) \right),$$
+			где $U^{(t)}, M^{(t)}$ -- дифференцируемые функции, $\bigoplus$ --- дифференцируемая аггрегирующая функция, инвариантная к перестановкам (в эксперименте будем использовать сумму)
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -309,10 +312,10 @@
 	\frametitle{Дополнение образа}
 	\begin{block}{Непрерывный подход (генерация скрытых представлений)}
 		\begin{itemize}
-			\item Асимптотика: один вызов функции $F_k^\theta$
 			\item Аппроксимация напрямую решений дискретной, а не релаксированной задачи
-			\item Позволяет получать произвольное количество скрытых представлений для элементов дополнения за один проход
-			\item Моделирует зависимости между элементами дополнения
+			\item Асимптотика: один вызов функции $F_k^\theta$
+			\item Произвольное количество элементов дополнения за одну итерацию
+			\item GNN моделирует зависимости между элементами дополнения
 			\item В качестве $\mathcal{X}_n$ можно рассмотреть набор решений задачи многошаговым жадным алгоритмом
 		\end{itemize}
 	\end{block}
@@ -328,6 +331,7 @@
 			\item Зафиксируем количество элементов дополнения $k=2$
 			\item Оцениваем алгоритмы на основании распределения оценок дополненных образов
 			\item Бейзлайн: рапределение оценок исходных образов
+			\item В качестве $\rho$ рассмотрим метрики $L_1$, $L_2$ и $L_{10}$ и косинусное расстояние.
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -336,8 +340,10 @@
 \begin{frame}
 	\frametitle{Вычислительный эксперимент}
 	\begin{block}{Дискретный подход (жадные алгоритмы)}
-		\vspace{0.3cm}
-		\includegraphics[scale = 0.5]{../figures/greedy_at_least_5_subset1000.png}
+		\vspace{-0.3cm}
+		\begin{center}
+		\includegraphics[scale = 0.47]{../figures/greedy_at_least_5_subset1000.png}
+		\end{center}
 		
 		Показывают хороший результат, но требуют слишком много времени
 	\end{block}
@@ -346,17 +352,47 @@
 \begin{frame}
 	\frametitle{Вычислительный эксперимент}
 	\begin{block}{Непрерывный подход (градиентный спуск)}
-		\includegraphics[scale = 0.5]{../figures/backprop_at_least_5_subset1000.png}
+		\vspace{-0.3cm}
+		\begin{center}
+			\includegraphics[scale = 0.47]{../figures/backprop_at_least_5_subset1000.png}
+		\end{center}
 	\end{block}
-Результат заметно хуже чем для жадных алгоритмов, а время вычислений все еще не позволяет использовать такой подход на практике
+Результат заметно хуже чем для жадных алгоритмов, а время вычислений еще медленнее, чем ожидалось
 \end{frame}
 
 \begin{frame}
 	\frametitle{Вычислительный эксперимент}
 	\begin{block}{Непрерывный подход (генераций представлений)}
-		\includegraphics[scale = 0.5]{../figures/GNN_at_least_5_subset1000_test.png}
+		\vspace{-0.3cm}
+		\begin{center}
+			\includegraphics[scale = 0.47]{../figures/GNN_at_least_5_subset1000_test.png}
+		\end{center}
+	\end{block}
+	Хорошее качество, достижимое за десятки миллисекунд. Интересно, что разницы между различными $\rho$ почти нет
+\end{frame}
+
+\begin{frame}
+	\frametitle{Вычислительный эксперимент}
+	\begin{block}{Сравнение методов}
+%		\vspace{cm}
+		\begin{center}
+			\begin{tabular}{|c|cccc|}
+				\hline
+				\multirow{2}{*}{$\rho$} & \multicolumn{4}{c|}{Выборочная медиана оценок образов}                                                                       \\ \cline{2-5} 
+				& \multicolumn{1}{c|}{ж. однош.}            & \multicolumn{1}{c|}{ж. многош.}           & \multicolumn{1}{c|}{гр. спуск} & GNN \\ \hline
+				$L_1$                   & \multicolumn{1}{c|}{\multirow{4}{*}{0.8511}} & \multicolumn{1}{c|}{\multirow{4}{*}{0.8467}} & \multicolumn{1}{c|}{0.6602}         & 0.8417    \\ \cline{1-1} \cline{4-5} 
+				$L_2$                   & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{0.4850}         & 0.8417  \\ \cline{1-1} \cline{4-5} 
+				$L_{10}$                & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{0.6132}         &  0.8415  \\ \cline{1-1}\cline{4-5} 
+				$cos~dist$              & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{}                     & \multicolumn{1}{c|}{0.7142}         &  0.8428  \\ \hline
+				Задержка, с             & \multicolumn{1}{c|}{$\sim$4}                     & \multicolumn{1}{c|}{$\sim$8}                     & \multicolumn{1}{c|}{$\sim$5}          &   $\sim$0.03  \\ \hline
+			\end{tabular}
+		\end{center}
+		Жадные алгоритмы показывают хороший результат, но не применимы на практике. \\
+		Подход с решением релаксированной задачи себя не оправдал --- для данных не выполнено теоретическое предположение.\\
+		Генерация представлений существенно быстрее и почти не уступает в качестве.
 	\end{block}
 \end{frame}
+
 
 
 \begin{frame}

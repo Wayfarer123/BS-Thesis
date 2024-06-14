@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  18 MAY 2024 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  14 JUN 2024 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,6 +994,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \WF@everypar=\toks49
 Package: wrapfig 2003/01/31  v 3.6
 )
+(c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
 (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
@@ -1021,49 +1024,54 @@ Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: wrapfig package is loaded.
 )
-(c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count344
 \c@subtable=\count345
 )
+(c:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count346
+\multirow@dima=\skip70
+\bigstrutjot=\dimen315
+)
 (c:/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip69
-\LTright=\skip70
-\LTpre=\skip71
-\LTpost=\skip72
-\LTchunksize=\count346
-\LTcapwidth=\dimen315
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
+\LTchunksize=\count347
+\LTcapwidth=\dimen316
 \LT@head=\box80
 \LT@firsthead=\box81
 \LT@foot=\box82
 \LT@lastfoot=\box83
 \LT@gbox=\box84
-\LT@cols=\count347
-\LT@rows=\count348
-\c@LT@tables=\count349
-\c@LT@chunks=\count350
+\LT@cols=\count348
+\LT@rows=\count349
+\c@LT@tables=\count350
+\c@LT@chunks=\count351
 \LT@p@ftn=\toks50
 )
 (c:/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count351
+\c@tracingmulticols=\count352
 \mult@box=\box85
-\multicol@leftmargin=\dimen316
-\c@unbalance=\count352
-\c@collectmore=\count353
-\doublecol@number=\count354
-\multicoltolerance=\count355
-\multicolpretolerance=\count356
-\full@width=\dimen317
-\page@free=\dimen318
-\premulticols=\dimen319
-\postmulticols=\dimen320
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
+\multicol@leftmargin=\dimen317
+\c@unbalance=\count353
+\c@collectmore=\count354
+\doublecol@number=\count355
+\multicoltolerance=\count356
+\multicolpretolerance=\count357
+\full@width=\dimen318
+\page@free=\dimen319
+\premulticols=\dimen320
+\postmulticols=\dimen321
+\multicolsep=\skip75
+\multicolbaselineskip=\skip76
 \partial@page=\box86
 \last@line=\box87
-\maxbalancingoverflow=\dimen321
+\maxbalancingoverflow=\dimen322
 \mult@rightbox=\box88
 \mult@grightbox=\box89
 \mult@firstbox=\box90
@@ -1104,58 +1112,62 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box125
 \@tempa=\box126
 \@tempa=\box127
-\c@minrows=\count357
-\c@columnbadness=\count358
-\c@finalcolumnbadness=\count359
-\last@try=\dimen322
-\multicolovershoot=\dimen323
-\multicolundershoot=\dimen324
+\c@minrows=\count358
+\c@columnbadness=\count359
+\c@finalcolumnbadness=\count360
+\last@try=\dimen323
+\multicolovershoot=\dimen324
+\multicolundershoot=\dimen325
 \mult@nat@firstbox=\box128
 \colbreak@box=\box129
-\mc@col@check@num=\count360
+\mc@col@check@num=\count361
 )
 (c:/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemeboxes.sty
-\beamer@boxheadheight=\dimen325
-\beamer@boxfootheight=\dimen326
-\beamer@headboxes=\count361
-\beamer@headboxsizes=\dimen327
-\beamer@currentbox=\count362
-\beamer@footboxes=\count363
-\beamer@footboxsizes=\dimen328
+\beamer@boxheadheight=\dimen326
+\beamer@boxfootheight=\dimen327
+\beamer@headboxes=\count362
+\beamer@headboxsizes=\dimen328
+\beamer@currentbox=\count363
+\beamer@footboxes=\count364
+\beamer@footboxsizes=\dimen329
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 43.
+
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count364
+\l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box130
 )
 (./slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 47.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 51.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
+1.
  (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    ... okay on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1193,16 +1205,16 @@ LaTeX Font Info:    ... okay on input line 47.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count365
-\scratchdimen=\dimen329
+\scratchcounter=\count366
+\scratchdimen=\dimen330
 \scratchbox=\box131
-\nofMPsegments=\count366
-\nofMParguments=\count367
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count368
-\MPscratchDim=\dimen330
-\MPnumerator=\count369
-\makeMPintoPDFobject=\count370
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen331
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks52
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1213,69 +1225,69 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (./slides.out) (./slides.out)
 \@outlinefile=\write5
 \openout5 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 47.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 47.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 47.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 47.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 47.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 47.
+(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 47.
+(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 47.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 47.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 47.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 47.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 51.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 47
+(Font)              `pureletters' in the math version `normal' on input line 51
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-7.
+(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
+1.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 47.
+(Font)              `pureletters' in the math version `bold' on input line 51.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
-7.
+(Font)                  T2A/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 5
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 47.
+ut line 51.
 
 (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1301,7 +1313,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 47.
+LaTeX Info: Redefining \th on input line 51.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1312,31 +1324,31 @@ Package caption Info: End \AtBeginDocument code.
 (./slides.nav) [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 72
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 76
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 72
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 76
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 72.
+ut line 76.
 
 (c:/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1346,14 +1358,10 @@ thkerncmss.
 
 ]
 
-LaTeX Warning: Command \O invalid in math mode on input line 90.
+LaTeX Warning: Command \O invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 90.
-
-
-Overfull \vbox (3.19624pt too high) detected at line 90
- []
+LaTeX Warning: Command \O invalid in math mode on input line 94.
 
 [3
 
@@ -1361,7 +1369,7 @@ Overfull \vbox (3.19624pt too high) detected at line 90
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-202.
+206.
  (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [5
@@ -1369,9 +1377,6 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ] [6
 
 ]
-Overfull \vbox (10.74727pt too high) detected at line 244
- []
-
 [7
 
 ] [8
@@ -1387,40 +1392,38 @@ Overfull \vbox (10.74727pt too high) detected at line 244
 ] [13
 
 ]
-<../figures/greedy_at_least_5_subset1000.png, id=113, 529.37775pt x 386.6445pt>
+<../figures/greedy_at_least_5_subset1000.png, id=112, 529.37775pt x 386.6445pt>
 
 File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/greedy_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
-nput line 344.
-(pdftex.def)             Requested size: 264.68822pt x 193.32178pt.
+nput line 350.
+(pdftex.def)             Requested size: 248.80757pt x 181.72293pt.
  [14
 
  <../figures/greedy_at_least_5_subset1000.png>]
-<../figures/backprop_at_least_5_subset1000.png, id=121, 528.7755pt x 386.04225p
+<../figures/backprop_at_least_5_subset1000.png, id=120, 528.7755pt x 386.04225p
 t>
 File: ../figures/backprop_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/backprop_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/backprop_at_least_5_subset1000.png  used on
- input line 352.
-(pdftex.def)             Requested size: 264.3871pt x 193.02065pt.
-
-Overfull \vbox (1.66013pt too high) detected at line 352
- []
-
-[15
+ input line 361.
+(pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
+ [15
 
  <../figures/backprop_at_least_5_subset1000.png>]
-<../figures/GNN_at_least_5_subset1000_test.png, id=128, 528.17325pt x 384.83775
-pt>
+<../figures/GNN_at_least_5_subset1000_test.png, id=127, 528.7755pt x 386.04225p
+t>
 File: ../figures/GNN_at_least_5_subset1000_test.png Graphic file (type png)
 <use ../figures/GNN_at_least_5_subset1000_test.png>
 Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
- input line 359.
-(pdftex.def)             Requested size: 264.08597pt x 192.4184pt.
+ input line 372.
+(pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
  [16
 
  <../figures/GNN_at_least_5_subset1000_test.png>] [17
+
+] [18
 
 ]
 \tf@nav=\write6
@@ -1432,18 +1435,23 @@ Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
- (./slides.aux)
+
+
+Package caption Warning: Unused \captionsetup[sub] on input line 18.
+See the caption package documentation for explanation.
+
+(./slides.aux)
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26578 strings out of 476024
- 508986 string characters out of 5794016
- 1862382 words of memory out of 5000000
- 46415 multiletter control sequences out of 15000+600000
+ 26654 strings out of 476024
+ 510353 string characters out of 5794016
+ 1865382 words of memory out of 5000000
+ 46484 multiletter control sequences out of 15000+600000
  533606 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,611b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,12n,122p,611b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texm
@@ -1472,10 +1480,10 @@ s0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sftt0800.pfb>
-Output written on slides.pdf (17 pages, 473720 bytes).
+Output written on slides.pdf (18 pages, 482457 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

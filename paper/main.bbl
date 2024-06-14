@@ -4,16 +4,21 @@
 Jimmy~Lei Ba, Jamie~Ryan Kiros, and Geoffrey~E. Hinton.
 \newblock Layer normalization, 2016.
 
+\bibitem{bronstein2021geometric}
+Michael~M. Bronstein, Joan Bruna, Taco Cohen, and Petar Veli?kovi?
+\newblock Geometric deep learning: Grids, groups, graphs, geodesics, and
+  gauges, 2021.
+
 \bibitem{cohen2016group}
 Taco~S. Cohen and Max Welling.
 \newblock Group equivariant convolutional networks, 2016.
 
-\bibitem{https://doi.org/10.48550/arXiv.1704.01212}
+\bibitem{gilmer2017neural}
 Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
   George~E. Dahl.
 \newblock Neural message passing for quantum chemistry, 2017.
 
-\bibitem{gilmer2017neural}
+\bibitem{https://doi.org/10.48550/arXiv.1704.01212}
 Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
   George~E. Dahl.
 \newblock Neural message passing for quantum chemistry, 2017.
