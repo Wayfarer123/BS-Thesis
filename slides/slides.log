@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  14 JUN 2024 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  15 JUN 2024 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,7 +1369,7 @@ LaTeX Warning: Command \O invalid in math mode on input line 94.
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-206.
+127.
  (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [5
@@ -1397,7 +1397,7 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/greedy_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
-nput line 350.
+nput line 270.
 (pdftex.def)             Requested size: 248.80757pt x 181.72293pt.
  [14
 
@@ -1407,7 +1407,7 @@ t>
 File: ../figures/backprop_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/backprop_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/backprop_at_least_5_subset1000.png  used on
- input line 361.
+ input line 281.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
  [15
 
@@ -1417,7 +1417,7 @@ t>
 File: ../figures/GNN_at_least_5_subset1000_test.png Graphic file (type png)
 <use ../figures/GNN_at_least_5_subset1000_test.png>
 Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
- input line 372.
+ input line 292.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
  [16
 
@@ -1447,11 +1447,11 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 Here is how much of TeX's memory you used:
  26654 strings out of 476024
  510353 string characters out of 5794016
- 1865382 words of memory out of 5000000
+ 1866382 words of memory out of 5000000
  46484 multiletter control sequences out of 15000+600000
  533606 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,12n,122p,611b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,12n,122p,381b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texm
@@ -1480,7 +1480,7 @@ s0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sftt0800.pfb>
-Output written on slides.pdf (18 pages, 482457 bytes).
+Output written on slides.pdf (18 pages, 482633 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  186 compressed objects within 2 object streams
