@@ -4,6 +4,12 @@
 Jimmy~Lei Ba, Jamie~Ryan Kiros, and Geoffrey~E. Hinton.
 \newblock Layer normalization, 2016.
 
+\bibitem{balim2023diagnosing}
+Caner Balim and Kemal {\"O}zkan.
+\newblock Diagnosing fashion outfit compatibility with deep learning
+  techniques.
+\newblock {\em Expert Systems with Applications}, 215:119305, 2023.
+
 \bibitem{bronstein2021geometric}
 Michael~M. Bronstein, Joan Bruna, Taco Cohen, and Petar Veli?kovi?
 \newblock Geometric deep learning: Grids, groups, graphs, geodesics, and
@@ -13,12 +19,13 @@ Michael~M. Bronstein, Joan Bruna, Taco Cohen, and Petar Veli?kovi?
 Taco~S. Cohen and Max Welling.
 \newblock Group equivariant convolutional networks, 2016.
 
-\bibitem{gilmer2017neural}
-Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
-  George~E. Dahl.
-\newblock Neural message passing for quantum chemistry, 2017.
+\bibitem{Cui_2019}
+Zeyu Cui, Zekun Li, Shu Wu, Xiao-Yu Zhang, and Liang Wang.
+\newblock Dressing as a whole: Outfit compatibility learning based on node-wise
+  graph neural networks.
+\newblock In {\em The World Wide Web Conference}, WWW ’19. ACM, May 2019.
 
-\bibitem{https://doi.org/10.48550/arXiv.1704.01212}
+\bibitem{gilmer2017neural}
 Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
   George~E. Dahl.
 \newblock Neural message passing for quantum chemistry, 2017.
@@ -79,6 +86,12 @@ Ali~Seyed Shirkhorshidi, Saeed Aghabozorgi, and Teh~Ying Wah.
   clustering continuous data.
 \newblock {\em PloS one}, 10(12):e0144059, 2015.
 
+\bibitem{su2021complementary}
+Tianyu Su, Xuemeng Song, Na~Zheng, Weili Guan, Yan Li, and Liqiang Nie.
+\newblock Complementary factorization towards outfit compatibility modeling.
+\newblock In {\em Proceedings of the 29th ACM international conference on
+  multimedia}, pages 4073--4081, 2021.
+
 \bibitem{https://doi.org/10.48550/arXiv.1409.4842}
 Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
   Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
@@ -93,5 +106,19 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
 Petar Veli?kovi?, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
   Li?, and Yoshua Bengio.
 \newblock Graph attention networks, 2018.
+
+\bibitem{Wang_2019}
+Xin Wang, Bo~Wu, and Yueqi Zhong.
+\newblock Outfit compatibility prediction and diagnosis with multi-layered
+  comparison network.
+\newblock In {\em Proceedings of the 27th ACM International Conference on
+  Multimedia}, MM '19. ACM, October 2019.
+
+\bibitem{yang2020learning}
+Xuewen Yang, Dongliang Xie, Xin Wang, Jiangbo Yuan, Wanying Ding, and Pengyun
+  Yan.
+\newblock Learning tuple compatibility for conditional outfit recommendation.
+\newblock In {\em Proceedings of the 28th ACM International Conference on
+  Multimedia}, pages 2636--2644, 2020.
 
 \end{thebibliography}
