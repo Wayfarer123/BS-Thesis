@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  23 JUN 2024 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  23 JUN 2024 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1379,7 +1379,11 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ]
 [7
 
-] [8
+]
+Overfull \vbox (13.2391pt too high) detected at line 229
+ []
+
+[8
 
 ] [9
 
@@ -1387,42 +1391,39 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 
 ] [11
 
-] [12
-
 ]
-<../figures/greedy_at_least_5_subset1000.png, id=106, 529.37775pt x 386.6445pt>
+<../figures/greedy_at_least_5_subset1000.png, id=102, 529.37775pt x 386.6445pt>
 
 File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/greedy_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
-nput line 281.
+nput line 287.
 (pdftex.def)             Requested size: 248.80757pt x 181.72293pt.
- [13
+ [12
 
  <../figures/greedy_at_least_5_subset1000.png>]
-<../figures/backprop_at_least_5_subset1000.png, id=115, 528.7755pt x 386.04225p
+<../figures/backprop_at_least_5_subset1000.png, id=110, 528.7755pt x 386.04225p
 t>
 File: ../figures/backprop_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/backprop_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/backprop_at_least_5_subset1000.png  used on
- input line 292.
+ input line 298.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
-
-[14
+ [13
 
  <../figures/backprop_at_least_5_subset1000.png>]
-<../figures/GNN_at_least_5_subset1000_test.png, id=122, 528.7755pt x 386.04225p
+<../figures/GNN_at_least_5_subset1000_test.png, id=118, 528.7755pt x 386.04225p
 t>
 File: ../figures/GNN_at_least_5_subset1000_test.png Graphic file (type png)
 <use ../figures/GNN_at_least_5_subset1000_test.png>
 Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
- input line 303.
+ input line 309.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
- [15
+ [14
 
- <../figures/GNN_at_least_5_subset1000_test.png>] [16
+ <../figures/GNN_at_least_5_subset1000_test.png>] [15
 
-] [17
+] [16
 
 ]
 \tf@nav=\write6
@@ -1444,13 +1445,13 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26668 strings out of 476024
- 510855 string characters out of 5794016
+ 26676 strings out of 476024
+ 510999 string characters out of 5794016
  1866382 words of memory out of 5000000
- 46500 multiletter control sequences out of 15000+600000
- 533606 words of font info for 91 fonts, out of 8000000 for 9000
+ 46507 multiletter control sequences out of 15000+600000
+ 535947 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,12n,122p,381b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,12n,122p,381b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texm
@@ -1460,29 +1461,30 @@ public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb>
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/cm-super/sfss0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/cm-super/sfss0700.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
--super/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfs
-s0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/cm-super/sftt0800.pfb>
-Output written on slides.pdf (17 pages, 480761 bytes).
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/cm-super/sfss0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+cm-super/sfss0700.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
+fss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/cm-super/sftt0800.pfb>
+Output written on slides.pdf (16 pages, 487842 bytes).
 PDF statistics:
  272 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 178 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
