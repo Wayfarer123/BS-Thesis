@@ -77,25 +77,24 @@
 
 
 \begin{frame}
-	\frametitle{Постановка задачи}
-		\begin{block}{Основные понятия и обозначения}
+	\frametitle{Постановка задачи дополнения образа}
+%		\begin{block}{Основные понятия и обозначения}
 			\begin{itemize}
-				\item Основная единица данных -- \textit{объект} или \textit{элемент }, множество всех объектов -- $\mathcal{X}$
-				
-				\item Каждый объект $X\in\mathcal{X}$ есть пара $X = (I, T)$ из соответственно изображения и текстового описания.  
-				\item Далее под объектом $X\in \mathcal{X}$ будем понимать его векторное представление $X\in\mathbb{R}^d$ в общем для элементов пространстве							
+				\item Основная единица данных -- \textit{объект} или \textit{элемент}, множество векторных представлений всех объектов -- $\mathcal{X}\subset \mathbb{R}^d$.
+%				\item Далее под объектом $X\in \mathcal{X}$ будем понимать его векторное представление $X\in\mathbb{R}^d$.
+%				
+%				\item Каждый объект $X\in\mathcal{X}$ есть пара $X = (I, T)$ из соответственно изображения и текстового описания.  
 				\item Непустые подмножества множества элементов $O = \{X_i\}_{i=1}^k\subset \mathcal{X}, O\neq\{\O\}$ будем называть \textit{образами}. Множество образов обозначим $\mathcal{O}$.
-				\item Для оценки образов введем функцию \textit{оценки} или \textit{совместимости} его элементов: 
-				$$\mathcal{S}:~2^\mathcal{X}\longrightarrow [0,1]$$
-				$$\forall O \in \mathcal{O}:~\mathcal{S}(O) > 0$$
-				\textit{Совместимостью} или \textit{оценкой} образа $O$ будем называть $\mathcal{S}(O)$
-			\end{itemize}
-		\end{block}					
-\end{frame}
+				\item Для образов введем функцию \textit{оценки} или \textit{совместимости} элементов: 
+				$$\mathcal{S}:~2^\mathcal{X}\longrightarrow [0,1], ~~~\forall O \in \mathcal{O}:~\mathcal{S}(O) > 0.$$
+%			\end{itemize}
+%		\end{block}					
+%\end{frame}
 
-\begin{frame}
-	\frametitle{Постановка задачи}
-	\begin{block}{Задача дополнения образа}
+
+%\begin{frame}
+%	\frametitle{Постановка задачи}
+%	\begin{block}{Задача дополнения образа}
 %		\begin{itemize}
 			\textbf{Дано:}\\
 			$O_n\in\mathcal{O}, ~|O| = n$ --- исходный образ \\
@@ -104,32 +103,33 @@
 			\textbf{Требуется:}\\
 			Найти наилучшее в смысле максимизации функции оценки $\mathcal{S}$ дополнение образа $O_n$  $k$ элементами $\{\hat{X_i}\}_{i=1}^k\subset \mathcal{X}$ т.е. решить следующую оптимизационную задачу
 			$$\{\hat{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathcal{X}} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
-			
-			Точное решение для известной $\mathcal{S}$: полный перебор всех подмножеств $\mathcal{X}$ размера $k$.\\
-			Асимптотика: $|\mathcal{X}|^k$ вызовов функции $\mathcal{S}$
-%		\end{itemize}
-	\end{block}					
+%			
+%			Точное решение для известной $\mathcal{S}$: полный перебор всех подмножеств $\mathcal{X}$ размера $k$.\\
+%			Асимптотика: $|\mathcal{X}|^k$ вызовов функции $\mathcal{S}$
+		\end{itemize}
+%	\end{block}					
 \end{frame}
 
 
 \begin{frame}
 	\frametitle{Теоретическая часть}
 	\begin{itemize}	
-	 	\item В качестве аппроксимации функции оценки $\mathcal{S}$ далее будем рассматривать предобученную модель OutfitTransformer\footnote{\url{https://doi.org/10.48550/arXiv.2204.04812}}.
+	 	\item Примем функцию оценки $\mathcal{S}$ известной. (В эксперименте будем рассматривать предобученную модель OutfitTransformer\footnote{\url{https://doi.org/10.48550/arXiv.2204.04812}}).
 	    \item Для задачи дополнения 
 	    $$\{\hat{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathcal{X}} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
 	    существует 2 глобальных подхода 
-	    \begin{itemize}	
+	    \begin{enumerate}	
 	    	\item Дискретный -- оптимизация полного перебора
 	    	\item Непрерывный -- решение некоторой связанной задачи в непрерывном множестве и выбор ближайших к решению элементов $\mathcal{X}$
-	    \end{itemize}
+	    \end{enumerate}
 	   \end{itemize}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Дополнение образа}
-	\begin{block}{Дискретный подход}
+%	\frametitle{Дополнение образа}
+	\frametitle{Дискретный подход}
+%	\begin{block}{Дискретный подход}
 		\begin{itemize}
 			\item Решение задачи приближенным перебором
 			\item Бейзлайн: жадные алгоритмы
@@ -143,34 +143,42 @@
 				
 			\item Альтернатива: алгоритм beam-search. В граничных случаях вырождается либо в полный перебор, либо в k-step алгоритм выше.\\
 			Асимптотика:  $\geqslant k\cdot|\mathcal{X}|$ вызовов функции $\mathcal{S}$
-			\item Очень неэффективно
+			\item Крайне неэффективно
 		\end{itemize}
-	\end{block}
+%	\end{block}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Дополнение образа}
-	\begin{block}{Непрерывный подход (градиентный спуск)}
-		\begin{itemize}
-			\item Функция $\mathcal{S}$ липшицева с некоторой константой $M$
-			\item Есть доступ не только к $\mathcal{S}$, но и к $\nabla\mathcal{S}$ 
-			\item Идея: перейдем к релаксированной задаче:
-			 	$$\{\tilde{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
-	 \item Далее выберем $\{\hat{X_i}\}\subset\mathcal{X}$ как ближайшие к решениям  в смысле функции близости $\rho$:
-	 \vspace{-0.3cm}
-	 $$\hat{X_i} =  \argmin_{X\in\mathcal{X}} \rho(\tilde{X_i}, X)$$
-	  \vspace{-0.5cm}
-	 \item Полученная задача разрешима с помощью градиентного спуска.
-	 \item Асимптотика: $n$ вызовов $\mathcal{S}$ и $\nabla\mathcal{S}$ , где $n$ -- количество шагов градиентного спуска (не зависит от $|\mathcal{X}|$)
-		\end{itemize}
-	\end{block}
+%	\frametitle{Дополнение образа}
+	\frametitle{Непрерывный подход}
+		Будем рассматривать 2 непрерывных алгоритма:
+		\begin{enumerate}	
+			\item Релаксация и градиентный спуск
+			\item Генерация скрытых представлений
+		\end{enumerate}
+		
+		\begin{block}{Градиентный спуск}
+			\begin{itemize}
+				\item Функция $\mathcal{S}$ липшицева с некоторой константой $M$
+				\item Есть доступ не только к $\mathcal{S}$, но и к $\nabla\mathcal{S}$ 
+				\item Идея: перейдем к релаксированной задаче:
+				 	$$\{\tilde{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
+		 \item Далее выберем $\{\hat{X_i}\}\subset\mathcal{X}$ как ближайшие к решениям  в смысле функции близости $\rho$:
+		 \vspace{-0.3cm}
+		 $$\hat{X_i} =  \argmin_{X\in\mathcal{X}} \rho(\tilde{X_i}, X)$$
+		  \vspace{-0.5cm}
+		 \item Полученная задача разрешима с помощью градиентного спуска.
+		 \item Асимптотика: $n$ вызовов $\mathcal{S}$ и $\nabla\mathcal{S}$ , где $n$ -- количество шагов градиентного спуска (не зависит от $|\mathcal{X}|$)
+			\end{itemize}
+		\end{block}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Дополнение образа}
-	\begin{block}{Непрерывный подход (градиентный спуск)}
+%	\frametitle{Дополнение образа}
+	\frametitle{Градиентный спуск}
+%	\begin{block}{Непрерывный подход (градиентный спуск)}
 		\begin{itemize}
 			\item $\mathcal{S}$ -- $M$-липшицева
 			\item рассмотрим $L_p$ метрику в качестве $\rho$, тогда
@@ -180,13 +188,15 @@
 			$$\exists \{\hat{X_i}\}_{i=1}^k\subset\mathcal{X}:~ \mathcal{S}\left(O_n\cup\{\hat{X_i}\}_{i=1}^k\right) \geqslant \max_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right) - M\varepsilon$$
 			$$\Updownarrow$$
 			$$\max_{\{X_i\}_{i=1}^k\subset\mathcal{X}} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right) \geqslant \max_{\{X_i\}_{i=1}^k\subset\mathbb{R}^d} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right) - M\varepsilon$$
+			\item Назовем последнее <<условием плотности>> множества элементов $\mathcal{X}$
 		\end{itemize}
-	\end{block}
+%	\end{block}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Дополнение образа}
-	\begin{block}{Непрерывный подход (генерация скрытых представлений)}
+%	\frametitle{Дополнение образа}
+%	\begin{block}{Непрерывный подход (генерация скрытых представлений)}'
+	\frametitle{Генерация скрытых представлений}
 		\begin{itemize}
 			\item Предлагается \textit{полностью} отказаться от вызовов функции $\mathcal{S}$
 			\item Переформулируем задачу как поиск аппроксимации функции 
@@ -195,13 +205,14 @@
 			$$F_k^\theta: \mathcal{O}\longrightarrow \mathbb{R}^d, ~F_k^\theta(O_n) = \{\tilde{X_i}\}_{i=1}^k$$
 			$$\text{и }\rho_\mathcal{X}: \mathbb{R}^d\longrightarrow \mathcal{X}, ~ \rho_\mathcal{X}(\tilde{X_i}) = \argmax_{\hat{X_i}\in\mathcal{X}}\rho(\tilde{X_i}, \hat{X_i})$$
 		\end{itemize}
-	\end{block}
+%	\end{block}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Дополнение образа}
-	\begin{block}{Непрерывный подход (генерация скрытых представлений)}
+%	\frametitle{Дополнение образа}
+	\frametitle{Генерация скрытых представлений}
+%	\begin{block}{Непрерывный подход (генерация скрытых представлений)}
 		\begin{itemize}
 			\item Свели задачу к генерации скрытых представлений недостающих элементов $\{\tilde{X_i}\}\subset \mathbb{R}^d$, наиболее близких в смысле функции $\rho$ к точным решениям
 			$$\{\hat{X_i}\}_{i=1}^k= \argmax_{\{X_i\}_{i=1}^k\subset\mathcal{X}} \mathcal{S}\left(O_n\cup\{X_i\}_{i=1}^k\right)$$
@@ -210,7 +221,7 @@
 			\item Тогда на параметры $\theta$ получаем следующую задачу:
 			$$\theta = \argmin_{\hat{\theta}}\left( \frac{1}{n}\sum_{i=1}^n\sum_{j=1}^k\rho\left(X_j^i, [F_k^{\hat{\theta}}(O^i)]_j\right)\right)$$
 		\end{itemize}
-\end{block}
+%	\end{block}
 \end{frame}
 
 
