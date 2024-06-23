@@ -1,0 +1,22 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Основные понятия}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Описание рассматриваемых задач}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Оценка образа}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Дополнение (восстановление) образа}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Генерация образа}{8}{}%
+\contentsline {subsection}{\numberline {1.3}Обзор литературы}{9}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Графовые нейронные сети (GNN, Message passing GNN)}{9}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Подходы к построению функций близости}{11}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Восстановление, генерация и оценка образов}{13}{}%
+\contentsline {section}{\numberline {2}Решение задачи дополнения образа}{18}{}%
+\contentsline {subsection}{\numberline {2.1}Дискретный подход}{19}{}%
+\contentsline {subsection}{\numberline {2.2}Релаксация и градиентный спуск}{20}{}%
+\contentsline {subsection}{\numberline {2.3}Генерация взаимосвязанных скрытых представлений}{22}{}%
+\contentsline {section}{\numberline {3}Вычислительный эксперимент}{25}{}%
+\contentsline {subsection}{\numberline {3.1}Условия эксперимента}{25}{}%
+\contentsline {subsection}{\numberline {3.2}Жадные алгоримты}{25}{}%
+\contentsline {subsection}{\numberline {3.3}Релаксация и градиентный спуск}{26}{}%
+\contentsline {subsection}{\numberline {3.4}Генерация скрытых представлений}{27}{}%
+\contentsline {subsection}{\numberline {3.5}Сравненительная таблица}{29}{}%
+\contentsline {section}{\numberline {4}Заключение}{30}{}%
