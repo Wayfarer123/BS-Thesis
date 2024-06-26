@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  27 JUN 2024 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.25)  27 JUN 2024 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1398,7 +1398,7 @@ Overfull \vbox (13.2391pt too high) detected at line 229
 File: ../figures/greedy_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/greedy_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/greedy_at_least_5_subset1000.png  used on i
-nput line 287.
+nput line 288.
 (pdftex.def)             Requested size: 248.80757pt x 181.72293pt.
  [12
 
@@ -1408,7 +1408,7 @@ t>
 File: ../figures/backprop_at_least_5_subset1000.png Graphic file (type png)
 <use ../figures/backprop_at_least_5_subset1000.png>
 Package pdftex.def Info: ../figures/backprop_at_least_5_subset1000.png  used on
- input line 298.
+ input line 300.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
  [13
 
@@ -1418,7 +1418,7 @@ t>
 File: ../figures/GNN_at_least_5_subset1000_test.png Graphic file (type png)
 <use ../figures/GNN_at_least_5_subset1000_test.png>
 Package pdftex.def Info: ../figures/GNN_at_least_5_subset1000_test.png  used on
- input line 309.
+ input line 312.
 (pdftex.def)             Requested size: 248.52452pt x 181.43988pt.
  [14
 
@@ -1482,7 +1482,7 @@ ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/t
 exmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/
 fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type
 1/public/cm-super/sftt0800.pfb>
-Output written on slides_Okhotnikov.pdf (16 pages, 487652 bytes).
+Output written on slides_Okhotnikov.pdf (16 pages, 486812 bytes).
 PDF statistics:
  272 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
